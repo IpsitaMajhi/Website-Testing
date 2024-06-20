@@ -1,0 +1,88 @@
+body {
+    font-family: 'Merriweather', serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    transition: transform 0.2s;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.test-button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.test-button:hover {
+    transform: translateY(-3px);
+}
+
+.security {
+    background: #d9534f;
+}
+
+.security:hover {
+    background: #c9302c;
+}
+
+.gui {
+    background: #5bc0de;
+}
+
+.gui:hover {
+    background: #31b0d5;
+}
+
+.performance {
+    background: #5cb85c;
+}
+
+.performance:hover {
+    background: #449d44;
+}
+
+.unit {
+    background: #f0ad4e;
+}
+
+.unit:hover {
+    background: #ec971f;
+}
+
+.chart-container {
+    display: none; /* Hide the chart container initially */
+    margin-top: 20px;
+}
